@@ -5,6 +5,7 @@ Designed by Ekene Smart (Product Designer) and developed by Ivan Arabome (Front-
 
 # Contributors
 Ekene Smart
+<br>
 Ivan Arabome
 
 # Design Tools
