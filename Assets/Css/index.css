@@ -1,0 +1,49 @@
+/*Make links text on left side of navbar black*/
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+/*For Desktop Version*/
+
+/*Style button*/
+.support, .support:focus
+{
+    width: 147px;
+    height: 35px;
+    background-color: transparent;
+    color: #8FB4FF;
+    border-style: none;
+}
+.support:hover {
+    color: #8FB4FF;
+    background-color: transparent;
+    border-color: transparent;
+}
+.createacct
+{
+    width: 147px;
+    height: 35px;
+    background-color: #0442BF;
+}
+
+/*Responsiveness*/
+
+/*For mobile phones*/
+@media screen and (max-width: 567px) 
+{
+    /*aligning menu for mobile view to be inline with logo*/
+    .nav-item
+    {
+        margin-left: 6%;
+    }
+
+    .navbar-toggler, .navbar-toggler:focus
+    {
+        border-style: none;
+        box-shadow: none;
+    }
+    .support
+    {
+        border-style: inset;
+        margin-bottom: 2%;
+    }
+}
