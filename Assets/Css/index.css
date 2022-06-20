@@ -35,10 +35,10 @@
     width: 1280px;
     height: 349px;
     margin-top: 78.57px;
-    margin-left: 80px;
-    
+    margin-left: 48px;    
 }
-.round
+/*background shadow in heroo section*/
+.backgroundshadow1
 {
     border-radius: 50%;
     position: absolute;
@@ -90,6 +90,168 @@ margin-left: 0px;
 margin-top: 29px;
 
 background: #0442BF;
+}
+
+/*horizontal line*/
+.divider
+{
+position: absolute;
+height: 1px;
+left: 81px;
+right: 79px;
+margin-top: 38px;
+
+background: rgba(4, 66, 191, 0.5);
+}
+
+.featuresection
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+margin-left: 48px ;
+
+position: absolute;
+width: 258px;
+height: 41px;
+margin-top: 85px;
+}
+.line
+{
+    width: 103px;
+}
+/*ourfeatures*/
+.ourfeatures
+{
+    width: 300px;
+    height: 41px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    
+    color: #626262;
+}
+
+/*places to visit section*/
+.item
+{
+    margin-top: 200px;
+    width: 1280px;
+    height: 47px;
+    margin-left: 48px;
+}
+
+/*Heading(places to visit section)*/
+.populardecision
+{
+    width: 274px;
+    height: 47px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #121212;
+}
+
+.seemore
+{   width: 159px;
+    height: 47px;
+    margin-left: 847px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 47px;
+    /* identical to box height */
+    
+    
+    color: #01017A;
+    
+}
+
+.visitplaces
+{
+    width: 1280px;
+    margin-left: 48px;
+}
+.preview
+{
+    width: auto;
+    margin-left: 30px;
+}
+.prev
+{
+    width: auto;
+}
+
+.maininfo
+{
+
+width: 352px;
+height: 69px
+}
+.info
+{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 2px;
+
+   width: 150px;
+   height: 69px;
+}
+.location
+{
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 41px;
+
+color: #000079;
+}
+.price
+{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 41px;
+
+    color: #000079;
+}
+
+.proceed
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+
+   width: 92px;
+   height: 50px;
+
+   background: #0442BF;
+   margin-left: 100px;
+   margin-top: 9.5px;
+}
+.card
+{   height:auto;
+    width:376px;
 }
 /*Responsiveness*/
 
