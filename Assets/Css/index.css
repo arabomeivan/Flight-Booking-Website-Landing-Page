@@ -34,7 +34,7 @@
 {
     width: 1280px;
     height: 349px;
-    margin-top: 78.57px;
+    margin-top: 184px;
     margin-left: 48px;    
 }
 /*background shadow in heroo section*/
@@ -183,11 +183,12 @@ margin-top: 85px;
 {
     width: 1280px;
     margin-left: 48px;
+    height: 531px;
 }
 .preview
 {
     width: auto;
-    margin-left: 30px;
+    margin-left: 28px;
 }
 .prev
 {
@@ -250,8 +251,164 @@ color: #000079;
    margin-top: 9.5px;
 }
 .card
-{   height:auto;
+{   height:470px;
     width:376px;
+}
+
+/*BLACK BACKGROUND SECTION*/
+.itembackground
+{   position: absolute;
+    height: 430px;
+    margin-left: 13px ;
+    margin-top: 1000px;
+    z-index: -100;
+    width: 1437px;
+    background: #121212;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.itembackground2
+{
+    position: absolute;
+    height: 430px;
+    margin-left: 13px ;
+    margin-top: 1750px;
+    z-index: -100;
+    width: 1437px;
+    background: #121212;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/*Why travel with us section*/
+.travelwithus
+{
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+    width: 883px;
+    position: absolute;
+    height: 400px;
+    margin-left: 279px;
+    margin-right: 278px;
+    margin-top: 2220px;
+}
+.travelheading
+{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 73px;
+text-align: center;
+width: auto;
+color: #121212;
+height: 73px;
+}
+
+.values
+{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 42px;
+
+width: 883px;
+height: 307px;
+}
+.frame45
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 33px;
+
+width: 277px;
+height: 284px;
+}
+
+.frame43
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 21px;
+
+width: 245px;
+height: 307px;
+
+}
+
+.frame41
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 33px;
+
+width: 277px;
+height: 284px;
+}
+.wallet
+{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 35px;
+text-align: center;
+
+color: #0442BF;
+}
+
+.covenient
+{
+    
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+
+color: #121212;
+
+}
+.frame6
+{
+    width: 159px;
+    height: 159px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame7
+{
+    width: 191px;
+    height: 191px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.frame8
+{
+    width: 159px;
+    height: 159px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services
+{
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Responsiveness*/
 
@@ -280,10 +437,14 @@ color: #000079;
 {
     width: 398px;
     height: auto;
-    margin-top: 10px;
-    margin-left: 0%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+.divider
+{
+    display: none;
+}
 .summary
 { 
 position: absolute;
@@ -298,7 +459,34 @@ line-height: 88px;
 color: #121212;
 text-align: center;
 }
+.featuresection
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+margin-left: 60px ;
 
+position: absolute;
+width: 70%;
+height: auto;
+margin-top: 7px;
+}
+
+.line
+{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ourfeatures
+{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*for get started button*/
 .getstarted
 {
@@ -309,9 +497,287 @@ margin-left: 30%
 {
 width: 300px;
 height: 200px;
-margin-top: 260px;
+margin-top: 310px;
 margin-left: auto;
 margin-right: auto;
 }
+
+/*places to visit section*/
+.item
+{
+    margin-top: 200px;
+    width: 80%;
+    height: 5%;
+    margin-left: 48px;
+}
+
+/*Heading(places to visit section)*/
+.populardecision
+{
+    width: auto;
+    height: 47px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 47px;
+    margin-left: auto;
+    margin-right: auto;
+    /* identical to box height */
+    color: #121212;
+}
+
+.seemore
+{   width: auto;
+    height: 47px;
+    margin-left: 2px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 47px;
+    margin-left: auto;
+    margin-right: auto;
+    /* identical to box height */
+    
+    
+    color: #01017A;
+    
+}
+
+.visitplaces
+{
+    width: auto;
+    margin-left: 0px;
+    height: 531px;
+    margin-top: 50px;
+}
+.preview
+{
+    width: 90%;
+    margin-top: 28px;
+}
+.prev
+{
+    width: 90%;
+    margin-top: 1%;
+}
+
+.maininfo
+{
+
+width: auto;
+height: 69px
+}
+.info
+{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 2px;
+
+   width: auto;
+   height: 69px;
+}
+.location
+{
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 41px;
+
+color: #000079;
+}
+.price
+{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 41px;
+
+    color: #000079;
+}
+
+.proceed
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+
+   width: auto;
+   height: 50px;
+
+   background: #0442BF;
+   margin-left: 100px;
+   margin-top: 9.5px;
+}
+.card
+{   height:470px;
+    width:1px;
+}
+
+/*BLACK BACKGROUND SECTION*/
+.itembackground
+{   position: absolute;
+    height: 430px;
+    margin-left: 13px ;
+    margin-top: 1000px;
+    z-index: -100;
+    width: 1437px;
+    background: #121212;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.itembackground2
+{
+    position: absolute;
+    height: 430px;
+    margin-left: 13px ;
+    margin-top: 1750px;
+    z-index: -100;
+    width: 1437px;
+    background: #121212;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/*Why travel with us section*/
+.travelwithus
+{
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+    width: auto;
+    position: absolute;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2220px;
+}
+.travelheading
+{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 73px;
+text-align: center;
+width: auto;
+color: #121212;
+height: 73px;
+}
+
+.values
+{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 42px;
+
+width: 883px;
+height: 307px;
+}
+.frame45
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 33px;
+
+width: 277px;
+height: 284px;
+}
+
+.frame43
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 21px;
+
+width: auto;
+height: 307px;
+
+}
+
+.frame41
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 33px;
+
+width: 277px;
+height: 284px;
+}
+.wallet
+{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 35px;
+text-align: center;
+
+color: #0442BF;
+}
+
+.covenient
+{
+    
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+
+color: #121212;
+
+}
+.frame6
+{
+    width: 159px;
+    height: 159px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame7
+{
+    width: 191px;
+    height: 191px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.frame8
+{
+    width: 159px;
+    height: 159px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 }
