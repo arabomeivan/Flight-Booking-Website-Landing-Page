@@ -93,14 +93,16 @@ background: #0442BF;
 }
 
 /*horizontal line*/
+hr:not([size]) {
+    height: 3px;
+}
 .divider
 {
 position: absolute;
-height: 1px;
-left: 81px;
-right: 79px;
+height: 3px;
+right: 69px;
+width: 1180px;
 margin-top: 38px;
-
 background: rgba(4, 66, 191, 0.5);
 }
 
@@ -409,6 +411,47 @@ color: #121212;
 {
     margin-left: auto;
     margin-right: auto;
+}
+.divider2
+{
+    position: absolute;
+    left: 72px;
+    width: 1220px;
+    margin-top: 2670px;
+
+background: rgba(4, 66, 191, 0.5);
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/**DOWNLOAD APP SECTION*/
+.downloadapp
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 41px;
+
+position: absolute;
+height: 481.88px;
+left: 60px;
+right: 80.11px;
+margin-top: 2770px;
+width: 1279.89px;
+}
+
+.appscreen
+{
+    width: 537.89px;
+    height: 481.88px;
+
+}
+
+.rightside
+{
+    width: 701px;
+    height: 430px;
 }
 /*Responsiveness*/
 
