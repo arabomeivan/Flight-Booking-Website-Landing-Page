@@ -169,6 +169,25 @@ margin-top: 85px;
 {   width: 159px;
     height: 47px;
     margin-left: 847px;
+    
+    
+}
+
+/*background shadow for heero section*/
+.backgroundshadow2
+{
+    position: absolute;
+    width: 374px;
+    height: 374px;
+    right: 10px;
+    left: 800px;
+    top: 349px;
+    
+    background: rgba(4, 66, 191, 0.3);
+    filter: blur(800px);
+}
+.more, .more:hover
+{
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
@@ -178,7 +197,6 @@ margin-top: 85px;
     
     
     color: #01017A;
-    
 }
 
 .visitplaces
@@ -614,6 +632,113 @@ background: #0442BF;
     background: #121212;
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
+.footeroll
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 233px;
+    top: 204px;
+    position: absolute;
+    height: 147px;
+    left: 80px;
+    right: 80px;
+    bottom: 31px;
+    
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.footerlogo
+{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width:200; 
+    height:55.43;
+    margin-bottom: 70px;
+}
+
+.mainlegal
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 189px;
+height: 147px;
+
+
+}
+
+.legal
+{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 41px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+width: 69px;
+height: 41px;
+}
+
+.contents
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 211px;
+height: 82px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #AFAFAF;
+
+}
+
+.partnerwithus
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 189px;
+height: 147px;
+
+}
+
+.needhelp
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 189px;
+height: 147px;
+}
+
 /*Responsiveness*/
 
 /*For mobile phones*/
