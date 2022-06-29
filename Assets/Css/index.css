@@ -638,13 +638,14 @@ background: #0442BF;
     flex-direction: row;
     align-items: flex-end;
     padding: 0px;
-    gap: 233px;
+    gap: 112px;
     top: 204px;
     position: absolute;
     height: 147px;
     left: 80px;
     right: 80px;
     bottom: 31px;
+    width: 1280px;
     
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
@@ -678,7 +679,7 @@ height: 147px;
     font-family: 'Heebo';
 font-style: normal;
 font-weight: 700;
-font-size: 28px;
+font-size: 24px;
 line-height: 41px;
 display: flex;
 align-items: center;
@@ -703,7 +704,7 @@ height: 82px;
 font-family: 'Heebo';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 20px;
 line-height: 35px;
 display: flex;
 align-items: center;
@@ -720,10 +721,38 @@ justify-content: center;
 align-items: flex-start;
 padding: 0px;
 gap: 24px;
-
+top:147px;
 width: 189px;
 height: 147px;
+margin-bottom: 10px;
 
+}
+.partner
+{
+    width: 195px;
+    height: 41px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.contents2
+{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #AFAFAF;
 }
 
 .needhelp
@@ -737,6 +766,109 @@ gap: 24px;
 
 width: 189px;
 height: 147px;
+margin-bottom: 10px;
+}
+
+.need
+{
+    height: 41px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.contents3
+{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #AFAFAF;
+}
+
+/*divider on footer*/
+.footerdivider
+{
+position: absolute;
+left: 80px;
+right: 80px;
+bottom: 250.5px;
+right: 69px;
+width: 1180px;;
+
+
+border: 1px solid #AFAFAF;
+}
+
+/*second footer*/
+.footerroll2
+{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+position: absolute;
+height: 41px;
+left: 80px;
+right: 79.61px;
+
+width: 1280px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.content4
+{
+    width: 414px;
+    height: 35px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #AFAFAF;
+}
+
+.connect
+{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 41px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+b, strong {
+    font-weight: bolder;
+    color: white;
+}
+.connectwith
+{
+    margin-left: 126px;
+}
+.socialicons
+{
+    margin-left: 10px;
 }
 
 /*Responsiveness*/
