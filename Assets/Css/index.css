@@ -100,10 +100,11 @@ hr:not([size]) {
 {
 position: absolute;
 height: 3px;
-right: 69px;
-width: 1180px;
+left: 60px;
+width: 1250px;
 margin-top: 38px;
 background: rgba(4, 66, 191, 0.5);
+transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .featuresection
@@ -144,6 +145,13 @@ margin-top: 85px;
 
 /*places to visit section*/
 .item
+{
+    margin-top: 200px;
+    width: 1280px;
+    height: 47px;
+    margin-left: 48px;
+}
+.item2
 {
     margin-top: 200px;
     width: 1280px;
@@ -200,6 +208,12 @@ margin-top: 85px;
 }
 
 .visitplaces
+{
+    width: 1280px;
+    margin-left: 48px;
+    height: 531px;
+}
+.visitplaces2
 {
     width: 1280px;
     margin-left: 48px;
@@ -869,373 +883,223 @@ color: #FFFFFF;
 }
 
 /*Responsiveness*/
-
 /*For mobile phones*/
-@media screen and (max-width: 567px) 
+@media screen and (max-width: 480px) 
 {
-    /*aligning menu for mobile view to be inline with logo*/
-    .nav-item
-    {
-        margin-left: 6%;
-    }
 
-    .navbar-toggler, .navbar-toggler:focus
-    {
-        border-style: none;
-        box-shadow: none;
-    }
-    .support
-    {
-        border-style: inset;
-        margin-bottom: 2%;
-    }
+    /*Heroosection*/
 
-    /*HEROO SECTION*/
-.heroosection
-{
-    width: 398px;
-    height: auto;
-    margin-top: 120px;
+    /*row*/
+  .heroosection
+  {
+    width: 300px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*column*/
+  .summary
+  {
+    width: 250px;
+    font-size: 22px;
+    height: 400px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 40%;
+  }
+
+  /*image*/
+  .plane {
+    width: 300px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/*button*/
+.getstarted
+{
+    margin-left: 55px;
+}
+
+/*END of Heero section*/
+
+
+/* first horizontal line*/
+
 .divider
 {
     display: none;
 }
-.summary
-{ 
-position: absolute;
-height: 177px;
-margin-left: 0px;
-margin-top: 10px;
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 88px;
-color: #121212;
-text-align: center;
-}
+
+/*FEATURE SECTION*/
 .featuresection
 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-gap: 32px;
-margin-left: 60px ;
-
-position: absolute;
-width: 70%;
-height: auto;
-margin-top: 7px;
+    width: 180px;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 80px;
 }
 
-.line
+/*Places to visit Section*/
+.itembackground
 {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-.ourfeatures
-{
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-/*for get started button*/
-.getstarted
-{
-margin-top: 5px;
-margin-left: 30%
-}
-.plane
-{
-width: 300px;
-height: 200px;
-margin-top: 310px;
-margin-left: auto;
-margin-right: auto;
+    margin-top: 80px;
 }
 
-/*places to visit section*/
+.backgroundshadow2
+{
+    display: none;
+}
+
 .item
 {
-    margin-top: 200px;
-    width: 80%;
-    height: 5%;
-    margin-left: 48px;
+    margin-top: 300px;
+    width: 190px;
+    margin-left: 100px;
 }
-
-/*Heading(places to visit section)*/
 .populardecision
 {
-    width: auto;
-    height: 47px;
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 47px;
-    margin-left: auto;
-    margin-right: auto;
-    /* identical to box height */
-    color: #121212;
+    width: 180px;
+    font-size: 18px;
 }
 
-.seemore
-{   width: auto;
+.seemore 
+{
+    width: 180px;
     height: 47px;
-    margin-left: 2px;
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 47px;
-    margin-left: auto;
-    margin-right: auto;
-    /* identical to box height */
-    
-    
-    color: #01017A;
-    
+    margin-left: 27px;
 }
 
+
+/*IMAGES DISPLAYING PLACES TO VISIT SECTION*/
 .visitplaces
 {
-    width: auto;
-    margin-left: 0px;
-    height: 531px;
-    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    margin-top: 200px;
+}
+
+/*images displaying places to visit*/
+.card {
+    height: 400px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.maininfo {
+    width: 250px;
+}
+
+.info
+{
+    width: 200px;
+}
+.proceed
+{
+    margin-left: 180px;
+    margin-top: -30px;
 }
 .preview
 {
-    width: 90%;
-    margin-top: 28px;
+    margin-left: 0px;
+    margin-top: 50px;
 }
-.prev
-{
-    width: 90%;
-    margin-top: 1%;
-}
-
-.maininfo
-{
-
-width: auto;
-height: 69px
-}
-.info
-{
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   padding: 0px;
-   gap: 2px;
-
-   width: auto;
-   height: 69px;
-}
-.location
-{
-
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 600;
-font-size: 23px;
-line-height: 41px;
-
-color: #000079;
-}
-.price
-{
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 23px;
-    line-height: 41px;
-
-    color: #000079;
-}
-
-.proceed
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-
-   width: auto;
-   height: 50px;
-
-   background: #0442BF;
-   margin-left: 100px;
-   margin-top: 9.5px;
-}
-.card
-{   height:470px;
-    width:1px;
-}
-
-/*BLACK BACKGROUND SECTION*/
 .itembackground
-{   position: absolute;
-    height: 430px;
-    margin-left: 13px ;
-    margin-top: 1000px;
-    z-index: -100;
-    width: 1437px;
-    background: #121212;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+{
+    display: none;
 }
 
 .itembackground2
 {
-    position: absolute;
-    height: 430px;
-    margin-left: 13px ;
-    margin-top: 1750px;
-    z-index: -100;
-    width: 1437px;
-    background: #121212;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+    display: none;
+}
+.item2
+{
+    display: none;
 }
 
-/*Why travel with us section*/
-.travelwithus
+.visitplaces2
 {
-    justify-content: center;
-    padding: 0px;
-    gap: 20px;
-    width: auto;
-    position: absolute;
-    height: 400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2220px;
+    width: 350px;
+    height: auto;
+    margin-top: 240%;
+}
+
+
+/*Travelwith us section*/
+.travelwithus
+{
+    margin-top: 260rem;
+    margin-left: 30px;
+    width: 350px;
+    height: auto;
+    
 }
 .travelheading
 {
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 73px;
-text-align: center;
-width: auto;
-color: #121212;
-height: 73px;
+    font-size: 40px;
 }
 
 .values
 {
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-gap: 42px;
-
-width: 883px;
-height: 307px;
+    height: auto;
+    margin-top: 160px ;
 }
-.frame45
+
+.divider2
 {
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 33px;
-
-width: 277px;
-height: 284px;
+    display: none;
 }
 
-.frame43
+
+/*download app section*/
+.downloadapp
 {
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 21px;
-
-width: auto;
-height: 307px;
+    margin-top: 340rem;
+    left: 30px;
 
 }
-
-.frame41
+.appscreen
 {
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 33px;
-
-width: 277px;
-height: 284px;
+    width: 300px ;
+    height: 250px;
 }
-.wallet
+.rightside
 {
-    font-family: 'Heebo';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 35px;
-text-align: center;
-
-color: #0442BF;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
+.divider3
+{
+    display: none;
 }
 
-.covenient
+.newsletterform
+{
+    margin-top: 500%;
+}
+
+.newsletterform
+{
+    margin-top: 800rem;
+}
+/*Footer*/
+.footer
+{
+    margin-top: 5000px;
+}
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 768px) and (max-width: 1024px)
 {
     
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
-
-color: #121212;
-
-}
-.frame6
-{
-    width: 159px;
-    height: 159px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.frame7
-{
-    width: 191px;
-    height: 191px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.frame8
-{
-    width: 159px;
-    height: 159px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.services
-{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 }
