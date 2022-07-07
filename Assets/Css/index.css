@@ -1061,8 +1061,9 @@ color: #FFFFFF;
 .downloadapp
 {
     margin-top: 340rem;
-    left: 30px;
-
+    left: 78px;
+    height: auto;
+    width: 270px;
 }
 .appscreen
 {
@@ -1080,21 +1081,122 @@ color: #FFFFFF;
     display: none;
 }
 
+
+/*News Letter Section*/
 .newsletterform
 {
-    margin-top: 500%;
+    margin-left: -61px;
+    width: 300px;
+    margin-top: 165rem;
+    height: auto;
+}
+.heading
+{
+    font-size: 40px;
+    text-align: center;
+}
+.formcontent
+{
+    height: auto;
+}
+.content
+{
+    margin-top: 20px;
+    text-align: center;
 }
 
-.newsletterform
+.verticaldevider
 {
-    margin-top: 800rem;
+    display: none;
+}
+
+/*form section*/
+.form-field
+{
+   margin-top: 30px;
+   margin-left: -10px;
+}
+.form-control
+{
+    width: 200px;
+    font-size: 18px;
+    
+}
+.join
+{
+    width: 250px;
 }
 /*Footer*/
 .footer
 {
-    margin-top: 5000px;
+    width: 376px;
+    margin-top: 195rem;
+    height: 200%;
 }
-
+.footerlogo
+{
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footeroll
+{
+    width: 380px;
+    left: 0px;
+    height: 200px;
+    gap: 1px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 1000px;
+    
+}
+.footerlogo
+{
+    margin-top: -100px;
+    height: 70px;
+    margin-bottom: 0px;
+}
+.mainlegal, .partnerwithus, .needhelp
+{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.legal
+{
+    text-align: center;
+    margin-left: 50px;
+}
+.contents, .contents2, .contents3
+{
+    text-align: center;
+}
+.need, .contents3
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerdivider
+{
+   display: none;    
+}
+.footerroll2
+{
+    width: 300px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: -60px;
+}
+.content4
+{
+    height: auto;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.connectwith
+{
+    margin-left: 40px;
+    margin-top: 30px;
+}
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
